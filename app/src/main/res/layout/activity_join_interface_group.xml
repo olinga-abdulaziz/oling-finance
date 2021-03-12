@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".JoinGroupInterfaceActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Oling"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="35sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" finance"
+            android:textAlignment="center"
+            android:textColor="#678"
+            android:textSize="35sp"></TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cc"
+                android:layout_width="wrap_content"
+                android:layout_height="295dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp">
+
+                <LinearLayout
+                    android:id="@+id/to"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:text="JOIN PRIVATE GROUP"
+                        android:textSize="20sp"></TextView>
+
+                    <TextView
+                        android:layout_width="328dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center_horizontal"
+                        android:text="Provide the correct group details below inorder to join the group. for private group we assume you know the group details to join"
+                        android:textAlignment="center"></TextView>
+
+                    <EditText
+                        android:id="@+id/edtGroupNamePrivate"
+                        android:layout_width="328dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="#F6F4F4"
+                        android:hint="Enter group name"
+                        android:paddingLeft="10dp"></EditText>
+
+                    <EditText
+                        android:id="@+id/groupIdPrivate"
+                        android:layout_width="328dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="#F6F4F4"
+                        android:hint="Enter group ID"
+                        android:paddingLeft="10dp"></EditText>
+
+                    <Button
+                        android:id="@+id/pJoin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginRight="50dp"
+                        android:text="Join Private"></Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/cc"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="181dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="JOIN PUBLIC GROUP"
+                            android:textSize="20sp"></TextView>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center_horizontal"
+                            android:text="Select the group you want to join on the list below and wait the group administrator to approve your joining request soon"
+                            android:textAlignment="center" />
+                        <Button
+                            android:id="@+id/selectGroup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginRight="50dp"
+                            android:text="SELECT A GROUP">
+                        </Button>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+                <TextView
+                    android:id="@+id/regewGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="#567"
+                    android:text="REGISTER NEW GROUP"
+                    android:gravity="center_horizontal">
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+</LinearLayout>

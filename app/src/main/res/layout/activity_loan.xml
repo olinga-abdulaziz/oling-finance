@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LoanActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/purple_500"
+        android:layout_height="88dp">
+
+        <LinearLayout
+            android:layout_width="189dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You OWE"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="62dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ksh."
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                android:textColor="@color/white">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="161dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00"
+                android:textColor="#0288D1"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="70dp">
+        <Button
+            android:layout_marginLeft="40dp"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="BORROW LOAN">
+        </Button>
+        <Button
+            android:layout_marginLeft="50dp"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="PAY LOAN">
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:text="LOAN TRANSACTIONS"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_height="46dp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    </LinearLayout>
+</LinearLayout>

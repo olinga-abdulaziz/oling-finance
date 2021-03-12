@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="90dp">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="94dp"
+            android:layout_height="90dp">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/groupico">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="309dp"
+            android:layout_height="102dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtGroupListName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="GROUP Name"
+                android:textColor="#567"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:id="@+id/txtGroupListId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="8784G"
+                android:textColor="@color/purple_500"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableRight="@drawable/ic_baseline_public"
+                android:drawablePadding="10dp"
+                android:text="public"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

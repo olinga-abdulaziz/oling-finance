@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IncomeGroupActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GROUP INCOME"
+        android:textSize="20sp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="158dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:src="@mipmap/groupico"
+            android:layout_height="match_parent">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="254dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tvGNa"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp"
+                android:textColor="#567"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GROUP NAME HERE">
+            </TextView>
+            <TextView
+                android:id="@+id/tvGId"
+                android:layout_marginTop="25dp"
+                android:textSize="16sp"
+                android:textColor="#567"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="62738G">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtGamount"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#E4E1DB"
+            android:hint="Amount"
+            android:paddingLeft="20dp">
+        </EditText>
+        <EditText
+            android:id="@+id/edtGrpSrc"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#E4E1DB"
+            android:hint="Source of Income"
+            android:paddingLeft="20dp">
+        </EditText>
+
+        <Button
+            android:id="@+id/btnDepGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Deposit"
+            android:layout_marginRight="50dp">
+        </Button>
+
+
+    </LinearLayout>
+</LinearLayout>

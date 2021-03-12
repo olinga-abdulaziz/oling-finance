@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "23414392852",
+    "project_id": "oling-finance",
+    "storage_bucket": "oling-finance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23414392852:android:75c54b7584f97cd5b8ff01",
+        "android_client_info": {
+          "package_name": "com.olingasoftware.projectapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23414392852-bo697m0rj6bisqqdds35g0hpbo7fquvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrGO0h3Asua6dPES7Ypey4gm-JMJ853g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23414392852-bo697m0rj6bisqqdds35g0hpbo7fquvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DepositMemActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="131dp">
+
+        <ImageView
+            android:layout_width="161dp"
+            android:src="@mipmap/image_icon"
+            android:layout_height="match_parent">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="242dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/dA"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#567"
+                android:layout_width="wrap_content"
+                android:text="Account Name Here"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:id="@+id/dP"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#567"
+                android:layout_width="wrap_content"
+                android:text="0786867373"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtWithdamount"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#F6E6DE"
+            android:hint="Amount to Withdraw"
+            android:paddingLeft="20dp"
+            android:singleLine="true">
+        </EditText>
+
+        <Button
+            android:id="@+id/saveAcc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Withdraw">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

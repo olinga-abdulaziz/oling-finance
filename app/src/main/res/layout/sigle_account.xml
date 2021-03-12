@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="85dp">
+
+        <LinearLayout
+            android:layout_width="96dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/accIcon"
+                android:layout_width="80dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/image_icon">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="217dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/accIcon"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/accName"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#678"
+                android:text="Adulaziz olinga said">
+            </TextView>
+            <TextView
+                android:id="@+id/accPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/accName"
+                android:layout_toRightOf="@+id/accIcon"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="07525633">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TTp"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="10dp"
+                android:text="200000"
+                android:textColor="#247A0E"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:id="@+id/TTam"
+                android:layout_width="100dp"
+                android:layout_height="37dp"
+                android:layout_below="@+id/TTp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/accPhone"
+                android:text="930000"
+                android:textColor="#8C603F"
+                android:textSize="20dp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
